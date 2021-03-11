@@ -23,7 +23,7 @@ int main()
 	{   //часть 1
 		double r = pow(22.5, -1 / 2) - 7.5 * pow(pow(2.87, -4 / 3), 2) * cos(1);
 		double m = -log10(pow(1.6, pow(1.2, 1 / 3)) * exp(3));
-		double s = 1;
+		double s ;
 		if (fabs(r) > fabs(m) + 1 / 2)
 		{
 			s = (4 * r + 3 * m) / (r * r + m * m);
